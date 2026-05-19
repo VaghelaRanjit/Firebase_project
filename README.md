@@ -39,7 +39,17 @@ A Flutter application built using Firebase that demonstrates complete CRUD (Crea
 ```bash id="wy2o52"
 lib/
  ├── auth/
+ │    ├── phone_auth/
+ │    ├── check_user.dart
+ │    ├── forgot_password.dart
+ │    ├── login_page.dart
+ │    └── signup_page.dart
+ │
  ├── firestore_db/
- ├── screens/
- ├── widgets/
- └── main.dart
+ │    ├── edit_delete_data.dart
+ │    ├── send_data.dart
+ │    └── show_data.dart
+ │
+ ├── firebase_options.dart
+ ├── home_page.dart
+ └──main.dart
